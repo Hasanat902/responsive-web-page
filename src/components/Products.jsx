@@ -10,8 +10,6 @@ const Products = () => {
       .then((data) => setProducts(data.data.data));
   }, []);
 
-  console.log(products);
-
   return (
     <div>
       <h2 className="text-4xl font-bold text-center my-5">Our Products</h2>
