@@ -46,7 +46,9 @@ const ProductDetails = () => {
             <p key={index}>{part.trim()}</p>
           ))}
         </div>
-        <button className="btn bg-blue-400 font-bold hover:bg-blue-500 mt-4 w-full">Add To Cart</button>
+        <button className="btn bg-blue-400 text-lg font-bold hover:bg-blue-500 mt-8 w-full">
+          Add To Cart
+        </button>
       </div>
     </div>
   );

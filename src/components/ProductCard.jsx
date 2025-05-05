@@ -17,7 +17,10 @@ const ProductCard = ({ product }) => {
           {product.price}
         </p>
         <div className="card-actions justify-end">
-          <Link to={`/product/${product.id}`} className="btn bg-blue-300 font-bold hover:bg-blue-400">
+          <Link
+            to={`/product/${product.id}`}
+            className="btn bg-blue-300 font-bold hover:bg-blue-400"
+          >
             View Details
           </Link>
         </div>
